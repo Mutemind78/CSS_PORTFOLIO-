@@ -352,6 +352,14 @@ ul {
   box-shadow: 0 4px 8px rgba(237, 5, 90, 0.2);
 }
 
+@media (max-width: 767px) {
+  .v-button {
+    padding: 10px 20px; 
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #projects {
     background-color: #fae7f6;
